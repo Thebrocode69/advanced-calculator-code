@@ -1,0 +1,28 @@
+print("select an operation")
+print("1. add")
+print("2. subract")
+print("3. multiply")
+print("4. divide")
+
+operation = input()
+if operation == "1":
+  num1 = input("first number ")
+  num2 = input("second number ")
+  print(float(num1) + float(num2))
+elif operation == "2":
+  num1 = input("first number ")
+  num2 = input("second number ")
+  print(float(num1) - float(num2))
+elif operation == "3":
+  num1 = input("first number ")
+  num2 = input("second number ")
+  print(float(num1) * float(num2))
+elif operation == "4":
+  num1 = input("first number ")
+  num2 = input("second number ")
+  if num2 == "0":
+    print("undefined")
+  else:
+    print(float(num1) / float(num2))
+else:
+  print("invalid entry")
