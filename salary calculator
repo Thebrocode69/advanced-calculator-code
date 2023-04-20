@@ -1,0 +1,6 @@
+salary = input("what is your salary? ")
+print("thank you")
+tax = input("how much percent of tax do you need to pay please put your  answer in decimal form ")
+print("the amount of salary you get to keep is ") 
+x = (float(salary) *  (float(1) - float(tax)))
+print(str(x) + " dollars")
