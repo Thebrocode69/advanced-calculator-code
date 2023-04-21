@@ -1,0 +1,9 @@
+import time
+
+x = int(input("how long do you want the timer to be for "))
+
+for y in range(0, x):
+  print(y)
+  time.sleep(1)
+
+print("times up")
