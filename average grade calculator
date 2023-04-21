@@ -1,0 +1,9 @@
+def average(mark):
+  sum1 = mark
+  x = sum(sum1)
+  total = len(mark)
+  average = x / total
+  return average
+
+mark = (85,90,95)
+print(average(mark))
