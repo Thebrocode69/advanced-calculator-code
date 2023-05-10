@@ -1,0 +1,7 @@
+import random
+y = [""]
+x = random.choices(, weights = [])
+print(x)
+while x != [""]:
+  x = random.choices(, weights = [50, 25, 10 ,5 , 3, 1])
+  print(x)
